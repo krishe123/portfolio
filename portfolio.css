@@ -154,15 +154,15 @@ nav .image ul {
 
 .box2 .text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 56%;
+    left: 34%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
 }
 
 .box2 .text div{
-    font-size: 56px;
+    font-size: 42px;
 }
 
 .box2 .text h1 {
@@ -182,8 +182,8 @@ nav .image ul {
 }
 
 .hamburger img {
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     background-color: #ff7800;
     filter: invert(100%); /* Make sure the image is white */
     position: fixed;
@@ -205,7 +205,7 @@ nav .image ul {
     top: 98vh;
     width: 100%;
     padding: 140px 0px;
-    background-color: #191919;
+    background-color: #faf7f7;
 }
 
 .about img {
@@ -234,14 +234,14 @@ nav .image ul {
 }
 
 .about-text h2 {
-    color: white;
+    color: rgb(4, 4, 4);
     font-size: 67px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
 .about-text h5 {
-    color: white;
+    color: rgb(7, 7, 7);
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
@@ -253,7 +253,7 @@ nav .image ul {
 }
 
 .about-text p {
-    color: #fcfc;
+    color: rgba(249, 22, 249, 0.8);
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
