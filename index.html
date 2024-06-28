@@ -27,7 +27,7 @@
             <nav>
 
                 <div class="logo">
-                    <img src="Screenshot 2024-03-08 160245.png" alt="">
+                    <img src="movie/Screenshot 2024-03-08 160245.png" alt="">
                 </div>
                 <h1>Krish Solanki</h1>
                 <div class="image">
@@ -79,7 +79,7 @@
             </div>
             <div>
 
-                <img src="nature_1.jpg" alt="">
+                <img src="movie/nature_1.jpg" alt="">
             </div>
 
             <div class="text">
@@ -97,7 +97,7 @@
 
             <section class="about" id="aboutus">
                 <div class="main">
-                    <img src="krish img.jpg" alt="">
+                    <img src="movie/krish img.jpg" alt="">
                     <div class="about-text">
                         <h2>About me</h2>
                         <h5>Developer <span>& Programmer</span></h5>
@@ -170,8 +170,8 @@
                 </div>
 
             </div>
-            
-            
+
+
             <div class="contact-container" id="contact">
                 <h1>Contact Us</h1>
                 <form action="">
@@ -192,7 +192,15 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         document.querySelector(".hamburger").addEventListener("click", () => {
-            document.querySelector(".box").classList.toggle("open");
+            const box = document.querySelector(".box");
+            const hamburgerIcon = document.querySelector(".hamburger img");
+            box.classList.toggle("open");
+
+            if (box.classList.contains("open")) {
+                hamburgerIcon.src = "close.svg";
+            } else {
+                hamburgerIcon.src = "hamburger.svg";
+            }
         });
 
         document.querySelectorAll('.nav-link').forEach(anchor => {
@@ -206,11 +214,22 @@
         });
 
         var typed = new Typed('#element', {
-            strings: ['Krish Solanki', 
-            'I am a programmer', 'Developer'],
+            strings: ['Krish Solanki', 'I am a programmer', 'Developer'],
             typeSpeed: 30,
             loop: true
         });
+
+
+
+
+
+
+
+
+
+
+
+
     </script>
 
 </body>
