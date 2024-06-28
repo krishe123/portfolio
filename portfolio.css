@@ -16,13 +16,15 @@
     padding: 10px;
     background-color: #040b14;
     position: fixed;
-    transition: left 0.3s ease; /* Smooth transition */
+    transition: left 0.3s ease;
+    /* Smooth transition */
     z-index: 1;
-    
+
 }
 
 .box.open {
-    left: 0; /* Slide in when .open class is added */
+    left: 0;
+    /* Slide in when .open class is added */
 }
 
 .box ul li {
@@ -161,7 +163,7 @@ nav .image ul {
     color: white;
 }
 
-.box2 .text div{
+.box2 .text div {
     font-size: 42px;
 }
 
@@ -178,14 +180,16 @@ nav .image ul {
     top: 10px;
     right: 10px;
     display: none;
-    z-index: 2; /* Ensure it is on top */
+    z-index: 2;
+    /* Ensure it is on top */
 }
 
 .hamburger img {
     height: 45px;
     width: 45px;
     background-color: #ff7800;
-    filter: invert(100%); /* Make sure the image is white */
+    filter: invert(100%);
+    /* Make sure the image is white */
     position: fixed;
     top: 11px;
     right: 16px;
@@ -206,6 +210,15 @@ nav .image ul {
     width: 100%;
     padding: 140px 0px;
     background-color: #faf7f7;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
+    /* Initially invisible */
+    animation-iteration-count: initial;
 }
 
 .about img {
@@ -215,6 +228,15 @@ nav .image ul {
     border-radius: 50%;
     position: relative;
     left: 10vh;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
+    /* Initially invisible */
+    /* animation-iteration-count: infinite; */
 
 }
 
@@ -222,6 +244,15 @@ nav .image ul {
     width: 550px;
     position: relative;
     left: 17vh;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
+    /* Initially invisible */
+    /* animation-iteration-count: infinite; */
 }
 
 .main {
@@ -238,6 +269,15 @@ nav .image ul {
     font-size: 67px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
+    /* Initially invisible */
+    /* animation-iteration-count: infinite; */
 }
 
 .about-text h5 {
@@ -246,10 +286,28 @@ nav .image ul {
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
+    /* Initially invisible */
+    /* animation-iteration-count: infinite; */
 }
 
 .about-text h5 span {
     color: red;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
+    /* Initially invisible */
+    /* animation-iteration-count: infinite; */
 }
 
 .about-text p {
@@ -258,18 +316,34 @@ nav .image ul {
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
+    /* Initially invisible */
+    /* animation-iteration-count: infinite; */
 }
 
 
-.skils{
+.skils {
     position: absolute;
     width: 63%;
-    top: 213%;
-    min-height: 90vh;
-    padding: 30px 10%;
+    top: 207%;
+    min-height: 60vh;
+    padding: 123px 10%;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
 }
 
-.skils .main-title{
+.skils .main-title {
     max-width: 700px;
     margin: 0px auto;
     position: relative;
@@ -278,7 +352,7 @@ nav .image ul {
     font-family: helvetica;
 }
 
-.skils .main-title h1{
+.skils .main-title h1 {
     position: relative;
     font-size: 40px;
     color: #242223;
@@ -287,17 +361,17 @@ nav .image ul {
 
 }
 
-.skils .main-title h1::before{
-   content: '';
-   position: absolute;
-   width: 100%;
-   height: 1px;
-   top: 125%;
-   left: 0;
-   background-color: #808080;
+.skils .main-title h1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 125%;
+    left: 0;
+    background-color: #808080;
 }
 
-.skils .main-title h1::after{
+.skils .main-title h1::after {
     content: '';
     position: absolute;
     width: 50%;
@@ -309,32 +383,32 @@ nav .image ul {
 
 }
 
-.main-title p{
+.main-title p {
     color: #808080;
 }
 
 
-.row{
+.row {
     position: relative;
     left: 48vh;
 }
 
 
-.container .row{
+.container .row {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
 }
 
-.row .col{
+.row .col {
     flex-basis: 46%;
-   
+
 
 }
 
 
-.row .sub-title h2{
+.row .sub-title h2 {
     position: relative;
     color: #242223;
     font-size: 22px;
@@ -344,7 +418,7 @@ nav .image ul {
 
 }
 
-.row .sub-title h2::before{
+.row .sub-title h2::before {
     content: '';
     position: absolute;
     width: 50%;
@@ -355,7 +429,7 @@ nav .image ul {
 
 }
 
-.row .sub-title h2::after{
+.row .sub-title h2::after {
     content: '';
     position: absolute;
     width: 25%;
@@ -365,7 +439,7 @@ nav .image ul {
     background-color: #d03645;
 }
 
-.sub-title{
+.sub-title {
     position: relative;
     left: -20px;
 }
@@ -376,7 +450,7 @@ nav .image ul {
     left: -22px;
 }
 
-.subject{
+.subject {
     font-size: 18px;
     font-weight: thin;
     color: #808080;
@@ -385,7 +459,7 @@ nav .image ul {
 
 }
 
-.progress-bar{
+.progress-bar {
     position: relative;
     width: 100%;
     height: 5px;
@@ -395,17 +469,17 @@ nav .image ul {
 
 }
 
-.progress-bar::after{
+.progress-bar::after {
     position: absolute;
     content: attr(value);
     top: -35px;
     right: 0;
     color: #808080;
     font-size: 18px;
-    
+
 }
 
-.progress-line{
+.progress-line {
     position: absolute;
     width: 0%;
     height: 7px;
@@ -415,14 +489,14 @@ nav .image ul {
     animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
 }
 
-@keyframes animate{
-    100%{
+@keyframes animate {
+    100% {
         width: 100%;
 
     }
 }
 
-.progress-line::after{
+.progress-line::after {
     content: '';
     position: absolute;
     width: 13px;
@@ -436,29 +510,50 @@ nav .image ul {
 }
 
 
-.contact-container{
-    
+.contact-container {
+
     display: grid;
     place-content: center;
     left: 24%;
     position: absolute;
     width: 63%;
     top: 315%;
-    min-height: 90vh;
+    min-height: 101vh;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
 }
 
-.h1{
+.h1 {
     color: #fff;
     text-transform: uppercase;
     padding: 20px 0;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
 }
 
-.form-group{
+.form-group {
     width: 400px;
     margin: 20px 0;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
 }
 
-.form-group input{
+.form-group input {
     width: 100%;
     height: 50px;
     padding: 0 20px;
@@ -467,12 +562,19 @@ nav .image ul {
     color: #eee;
     font-size: 18px;
     transition: 0.15s all ease;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
 }
 
 
 
 
-.form-group textarea{
+.form-group textarea {
     border: #acacac solid 2px;
     outline: none;
     width: 100%;
@@ -480,9 +582,16 @@ nav .image ul {
     padding: 20px;
     color: #eee;
     font-size: 18px;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
 }
 
-#btn{
+#btn {
     width: 40%;
     height: 50px;
     font-size: 1.5em;
@@ -493,110 +602,144 @@ nav .image ul {
     border: none;
     transition: 0.5s;
     cursor: pointer;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
+    /* Keeps the final state after animation */
+    opacity: 0;
 }
 
-#btn:hover{
-  background: rgb(0, 0, 0, 0.5);
+#btn:hover {
+    background: rgb(0, 0, 0, 0.5);
 }
 
 
 
-@media  screen and (max-width: 500px) {
 
-    .skils{
+
+
+
+@keyframes krishanimation {
+    from {
+        transform: translateY(150%);
+        opacity: 0;
+        /* Starting from invisible */
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+        /* Ending at fully visible */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .skils {
         height: 64vh;
     }
 
-    .row .col{
-    
+    .row .col {
+
         width: 50%;
-    
+
 
     }
 
-    .sub-title{
+    .sub-title {
         position: relative;
         left: -26px;
     }
 
-    .skils .main-title{
+    .skils .main-title {
         position: relative;
         left: -46px;
         bottom: 3vh;
     }
 
-    .skils-container{
+    .skils-container {
         width: 192%;
         position: relative;
         left: -22px;
     }
 
-    
 
-    .main-title h1{
+
+    .main-title h1 {
         position: relative;
         left: -33px;
-        
+
     }
 
-    .main-title p{
+    .main-title p {
         position: relative;
         left: 0;
         width: 47vh;
-        }
+    }
 
-    .row{
+    .row {
         position: relative;
         left: 0;
         bottom: 41px;
     }
 
-    
-.contact-container{
-    left: 0;
-    width: 348px;
-    position: absolute;
-    top: 290%;
+
+    .contact-container {
+        left: 0;
+        width: 348px;
+        position: absolute;
+        top: 283%;
+    }
+
+
+    .form-group {
+        width: 291px;
+    }
+
+
+
+
+
+    #btn:hover {
+        background: rgb(0, 0, 0, 0.5);
+    }
+
 }
 
-
-.form-group{
-   width: 291px;
-}
-
-
-
-
-
-#btn:hover{
-  background: rgb(0, 0, 0, 0.5);
-}
-
-}
-
-@media  screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
 
 
     .about {
         height: 66vh;
     }
-    
+
     .about img {
         position: absolute;
         left: 3vh;
         width: 40vh;
         height: 40vh;
         top: 2vh;
-    
+
     }
-    
+
     .about-text {
         position: relative;
         top: 27vh;
         left: 2vh;
         width: 74vh;
     }
-    
+
 
 
 
@@ -605,8 +748,8 @@ nav .image ul {
 
 
     .box {
-        position: absolute;
-        left: -120%; 
+        /* position: absolute; */
+        left: -120%;
         width: 35vh;
     }
 
@@ -614,31 +757,36 @@ nav .image ul {
         display: block;
     }
 
-   
-.logo{
-    right: 2px;
-    position: relative;
-}
 
-nav h1{
-    right: 2px;
-    position: relative;
-}
-
-.image ul{
-    right: 0px;
-    position: relative;
-}
-
-.icon ul{
-    right: 34px;
-    position: relative;
-}
-
-    .box.open {
-        left: 0; 
+    .logo {
+        right: 2px;
+        position: relative;
     }
 
-    
+    nav h1 {
+        right: 2px;
+        position: relative;
+    }
+
+    .image ul {
+        right: 0px;
+        position: relative;
+    }
+
+    .icon ul {
+        right: 34px;
+        position: relative;
+    }
+
+    .box.open {
+        left: 0;
+    }
+
+
+
+
+
+
+
 
 }
