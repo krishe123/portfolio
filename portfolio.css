@@ -83,8 +83,9 @@ nav .image ul {
 
 .image a:hover {
     color: white;
-    background: rgb(0, 200, 255);
+    /* background: rgb(0, 200, 255); */
     transition: .5s;
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 100px #03e9f4;
 }
 
 .icon ul {
@@ -510,6 +511,166 @@ nav .image ul {
 }
 
 
+
+
+/* projects css  */
+
+.projects {
+    padding: 50px;
+    background-color: #faf7f7;
+    height: 112vh;
+    width: 93%;
+    position: relative;
+    top: 335%;
+    padding: 50px;
+    width: 65%;
+    position: relative;
+    left: 55vh;
+    /* background-color: #f7efef; */
+}
+
+
+
+.project-main-title h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    position: relative;
+    left: 18vh;
+}
+
+#main-title-p {
+    color: #808080;
+     position: relative;
+     top: 16px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.p-h{
+    position: relative;
+    left: 50vh;
+    width: 20vh;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    /* width: 66%;
+    height: 69vh; */
+    width: 56%;
+    height: 50vh;
+    position: relative;
+    left: 10vh;
+    top: 6vh;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-links .btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.project-links{
+    position: relative;
+    top: 27vh;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #555;
+    position: relative;
+    top: 24vh;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 24vh;
+}
+
+.project-links .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 16px;
+}
+
+.project-links .btn:hover {
+    background-color: #0056b3;
+}
+
+.project-image  {
+    width: 50%;
+    height: 30vh;
+    /* max-height: 301px; Keeps the image size consistent */
+    max-height:  190px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+/* project css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contact-container {
 
     display: grid;
@@ -517,7 +678,7 @@ nav .image ul {
     left: 24%;
     position: absolute;
     width: 63%;
-    top: 315%;
+    top: 498%;
     min-height: 101vh;
     animation-name: krishanimation;
     animation-duration: 3s;
@@ -699,7 +860,7 @@ nav .image ul {
         left: 0;
         width: 348px;
         position: absolute;
-        top: 283%;
+        top: 455%;
     }
 
 
@@ -713,6 +874,104 @@ nav .image ul {
 
     #btn:hover {
         background: rgb(0, 0, 0, 0.5);
+    }
+
+
+
+
+
+
+
+
+
+    .projects {
+        padding: 50px;
+        background-color: #faf7f7;
+        height: 112vh;
+        width: 93%;
+        position: relative;
+        top: 377%;
+        padding: 50px;
+        width: 89%;
+        position: relative;
+        left: -7vh;
+        /* background-color: #f7efef; */
+    }
+    
+    
+    
+    .project-main-title h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #333;
+        position: relative;
+        left: 18vh;
+    }
+    
+    #main-title-p {
+        color: #808080;
+        position: relative;
+        top: 16px;
+        width: 112%;
+        left: 12px;
+    }
+    
+   
+    
+    .p-h{
+        position: relative;
+        left: 50vh;
+        width: 20vh;
+    }
+    
+    .project {
+        width: 75%;
+        height: 47vh;
+        position: relative;
+        left: 6vh;
+        top: 6vh;
+    }
+
+    .main-title h1 {
+        position: relative;
+        left: -30px;
+    }
+    
+   
+    
+    .project h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #555;
+        position: relative;
+        top: 24vh;
+    }
+
+    .project:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-links .btn:hover {
+        background-color: #0056b3;
+        transform: scale(1.1);
+    }
+    
+    
+    
+   
+    
+    
+    
+   
+    
+    .project-image  {
+        width: 50%;
+        height: 30vh;
+        /* max-height: 301px; Keeps the image size consistent */
+        max-height:  190px;
+      
     }
 
 }
@@ -789,4 +1048,129 @@ nav .image ul {
 
 
 
+
+
+    .projects {
+        padding: 50px;
+        background-color: #faf7f7;
+        height: 122vh;
+        width: 93%;
+        position: relative;
+        top: 303%;
+        padding: 50px;
+        width: 89%;
+        position: relative;
+        left: -7vh;
+        /* background-color: #f7efef; */
+    }
+    
+    
+    
+    .project-main-title h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #333;
+        position: relative;
+        left: 18vh;
+    }
+    
+    #main-title-p {
+        color: #808080;
+         position: relative;
+         top: 16px;
+    }
+    
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+   
+
+    .project-links .btn:hover {
+        background-color: #0056b3;
+        transform: scale(1.1);
+    }
+    
+    .p-h{
+        position: relative;
+        left: 50vh;
+        width: 20vh;
+    }
+    
+    .project {
+        width: 86%;
+        height: 47vh;
+        position: relative;
+        left: 4vh;
+        top: 6vh;
+        margin-top: 2vh;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .project-links{
+        position: relative;
+        top: 27vh;
+    }
+    
+    .project h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #555;
+        position: relative;
+        top: 24vh;
+    }
+    
+    .project p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        position: relative;
+        top: 24vh;
+    }
+    
+    .project-links .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5px;
+        background-color: #007bff;
+        
+        color: white;
+        text-decoration: none;
+        border-radius: 50px;
+        transition: background-color 0.3s, transform 0.3s;
+        font-size: 16px;
+    }
+    
+    .project-links .btn:hover {
+        background-color: #0056b3;
+        transform: scale(1.1);
+    }
+    
+    .project-image  {
+        width: 50%;
+        height: 30vh;
+        /* max-height: 301px; Keeps the image size consistent */
+        max-height:  190px;
+        object-fit: contain;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+
+
+
+
+
+
 }
+
+
