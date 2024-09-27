@@ -7,6 +7,8 @@
     <title>Demo website</title>
     <!-- <link rel="stylesheet" href="Myweb.css"> -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" href="portfolio.css">
 
 
@@ -27,12 +29,13 @@
             <nav>
 
                 <div class="logo">
-                    <img src="Screenshot 2024-03-08 160245.png" alt="">
+                    <img src="movie/Screenshot 2024-03-08 160245.png" alt="">
                 </div>
                 <h1>Krish Solanki</h1>
                 <div class="image">
                     <ul>
-                        <a href="#"> <i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
 
                         <a href="#"> <i class='bx bxl-facebook'></i></a>
 
@@ -62,6 +65,9 @@
                         <li><a href="#skils" class="nav-link scrollto"><i class="bx bx-server"></i>
                             </a><span>Services</span></li>
 
+                        <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-server"></i>
+                            </a><span>Projects</span></li>
+
                         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i>
                             </a><span>Contact</span></li>
 
@@ -79,7 +85,7 @@
             </div>
             <div>
 
-                <img src="nature_1.jpg" alt="">
+                <img src="movie/nature_1.jpg" alt="">
             </div>
 
             <div class="text">
@@ -97,7 +103,7 @@
 
             <section class="about" id="aboutus">
                 <div class="main">
-                    <img src="krish img.jpg" alt="">
+                    <img src="movie/krish img.jpg" alt="">
                     <div class="about-text">
                         <h2>About me</h2>
                         <h5>Developer <span>& Programmer</span></h5>
@@ -156,7 +162,7 @@
 
                             <div class="skill">
                                 <div class="subject">PHP</div>
-                                <div class="progress-bar" value="9%">
+                                <div class="progress-bar" value="90%">
                                     <div class="progress-line" style="max-width: 90%;"></div>
                                 </div>
                             </div>
@@ -170,6 +176,52 @@
                 </div>
 
             </div>
+
+
+
+
+
+            <section class="projects" id="projects">
+                <div class="main-title">
+                    <h1 class="p-h">My Projects</h1>
+                    <p id="main-title-p">A collection of my work showcasing various projects and applications I have developed.</p>
+                </div>
+        
+                <div class="projects-container">
+                    <!-- Project 1 -->
+                    <div class="project">
+                        <img src="Screenshot 2024-09-23 173706.png" alt="Project 1 Image" class="project-image">
+                        <h2>Project Title 1</h2>
+                        <p>Short description of the project, highlighting its features and purpose.</p>
+                        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                        <div class="project-links">
+                            <a href="https://krishe123.github.io/portfolio/" class="btn" target="_blank">Live Demo</a>
+                            <a href="https://github.com/krishe123/portfolio" class="btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+
+                    
+        
+                    <!-- Project 2 -->
+                    <div class="project">
+                        <img src="Screenshot 2024-09-23 174217.png" alt="Project 2 Image" class="project-image">
+                        <h2>Project Title 2</h2>
+                        <p>Short description of the project, highlighting its features and purpose.</p>
+                        <p><strong>Technologies:</strong> Python, Django, PostgreSQL</p>
+                        <div class="project-links">
+                            <a href="https://krishe123.github.io/weatherapp/" class="btn" target="_blank">Live Demo</a>
+                            <a href=" https://github.com/krishe123/weatherapp" class="btn" target="_blank">GitHub</a>
+        
+                        </div>
+                    </div>
+        
+                    <!-- Add more projects as needed -->
+                </div>
+            </section>
+
+
+
+           
 
 
             <div class="contact-container" id="contact">
@@ -187,8 +239,17 @@
                     <input id="btn" type="submit" value="send">
                 </form>
             </div>
+
+
+
         </div>
     </div>
+
+
+
+    
+
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         document.querySelector(".hamburger").addEventListener("click", () => {
