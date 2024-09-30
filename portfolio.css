@@ -521,12 +521,20 @@ nav .image ul {
     height: 112vh;
     width: 93%;
     position: relative;
-    top: 335%;
+
+    /* top: 335%;
     padding: 50px;
     width: 65%;
     position: relative;
-    left: 55vh;
+    left: 55vh; */
     /* background-color: #f7efef; */
+
+    top: 335%;
+    padding: 50px;
+    /* width: 73%; */
+    position: relative;
+    left: 1vh;
+    background-color: #121111;
 }
 
 
@@ -544,30 +552,49 @@ nav .image ul {
     color: #808080;
      position: relative;
      top: 16px;
+
+
+
+     width: 130vh;
+     left: 56vh;
+     color: #fff;
 }
 
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 79px;
+    width: 77%;
+    position: relative;
+    left: 26vh;
 }
 
 .p-h{
     position: relative;
-    left: 50vh;
+    /* left: 50vh;
+    width: 20vh; */
+    left: 110vh;
     width: 20vh;
+    color: #fff;
 }
 
 .project {
-    background-color: white;
+    background-color: black;
     padding: 20px;
     /* width: 66%;
     height: 69vh; */
     width: 56%;
     height: 50vh;
     position: relative;
-    left: 10vh;
+    /* left: 10vh; */
+
+
+    left: 22vh;
+   
+
+
     top: 6vh;
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
@@ -578,6 +605,8 @@ nav .image ul {
 .project:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    border: 3px solid #03e9f4;
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 100px #03e9f4;
 }
 
 .project-links .btn:hover {
@@ -596,6 +625,7 @@ nav .image ul {
     color: #555;
     position: relative;
     top: 24vh;
+    color: #d3c7c7;;
 }
 
 .project p {
@@ -603,6 +633,7 @@ nav .image ul {
     margin-bottom: 10px;
     position: relative;
     top: 24vh;
+    color: #d3c7c7;;
 }
 
 .project-links .btn {
@@ -630,6 +661,10 @@ nav .image ul {
     object-fit: contain;
     border-radius: 8px;
     margin-bottom: 15px;
+
+
+    /* change */
+    margin-top: 14px;
 }
 
 
@@ -949,8 +984,10 @@ nav .image ul {
     }
 
     .project:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+          transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    border: 3px solid #03e9f4;
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 100px #03e9f4;
     }
 
     .project-links .btn:hover {
@@ -1052,15 +1089,15 @@ nav .image ul {
 
     .projects {
         padding: 50px;
-        background-color: #faf7f7;
-        height: 122vh;
+        background-color: #121111;
+        height: 127vh;
         width: 93%;
         position: relative;
         top: 303%;
         padding: 50px;
-        width: 89%;
+        width: 86%;
         position: relative;
-        left: -7vh;
+        left: -5vh;
         /* background-color: #f7efef; */
     }
     
@@ -1086,6 +1123,7 @@ nav .image ul {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 20px;
         padding: 20px;
+        width: 16%;
     }
 
    
@@ -1095,17 +1133,18 @@ nav .image ul {
         transform: scale(1.1);
     }
     
-    .p-h{
+    #p-h{
         position: relative;
-        left: 50vh;
+        left: 13px;
         width: 20vh;
+        color: #fff;
     }
     
     .project {
         width: 86%;
         height: 47vh;
         position: relative;
-        left: 4vh;
+        left: -23vh;
         top: 6vh;
         margin-top: 2vh;
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
@@ -1115,6 +1154,8 @@ nav .image ul {
     .project:hover {
         transform: translateY(-10px);
         box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        border: 3px solid #03e9f4;
+        box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 100px #03e9f4;
     }
     
     .project-links{
