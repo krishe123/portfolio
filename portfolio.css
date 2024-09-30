@@ -1215,6 +1215,12 @@ nav .image ul {
         height: 25vh;
     }
 
+    .skils-container {
+        width: 235%;
+        position: relative;
+        left: -22px;
+    }
+
   
     .projects {
         padding: 50px;
