@@ -1278,11 +1278,11 @@ nav .image ul {
 @media screen and (max-width: 480px) {
 
     #chishiya-img {
-    background-image: url('https://i.pinimg.com/736x/82/95/d8/8295d80e3ce0cd224b054222c15da2ae.jpg');
-    /* opacity: 0.8; */
-    opacity: 238.8;
-   
-}
+        background-image: url('https://i.pinimg.com/736x/82/95/d8/8295d80e3ce0cd224b054222c15da2ae.jpg');
+        /* opacity: 0.8; */
+        opacity: 238.8;
+       
+    }
     .about img {
         width: 25vh;
         height: 25vh;
