@@ -571,7 +571,7 @@ nav .image ul {
     left: 26vh;
 }
 
-.p-h{
+#p-h{
     position: relative;
     /* left: 50vh;
     width: 20vh; */
@@ -1134,7 +1134,7 @@ nav .image ul {
     
     .project-links {
         position: relative;
-        top: 24vh;
+        top: 27vh;
     }
     
     .project h2 {
@@ -1225,7 +1225,7 @@ nav .image ul {
     .projects {
         padding: 50px;
         background-color: #121111;
-        height: 153vh;
+        height: 152vh;
         width: 93%;
         position: relative;
         top: 303%;
@@ -1277,7 +1277,7 @@ nav .image ul {
     
     .project {
         width: 86%;
-        height: 53vh;
+        height: 58vh;
         position: relative;
         left: -23vh;
         top: 6vh;
