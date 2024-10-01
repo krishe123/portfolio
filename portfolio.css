@@ -188,7 +188,7 @@ nav .image ul {
 .hamburger img {
     height: 45px;
     width: 45px;
-    background-color: #ff7800;
+   
     filter: invert(100%);
     /* Make sure the image is white */
     position: fixed;
