@@ -710,11 +710,11 @@ nav .image ul {
 
     display: grid;
     place-content: center;
-    left: 24%;
+    left: 38%;
     position: absolute;
-    width: 63%;
+    width: 42%;
     top: 498%;
-    min-height: 101vh;
+    min-height: 83vh;
     animation-name: krishanimation;
     animation-duration: 3s;
     animation-delay: 0.5s;
@@ -722,9 +722,32 @@ nav .image ul {
     animation-fill-mode: forwards;
     /* Keeps the final state after animation */
     opacity: 0;
+
+
+
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: auto;
+    /* background: linear-gradient(135deg, #06c5f9, #002d62); */
+   
+    /* animation: krishanimation 1.5s ease-out; */
 }
 
-.h1 {
+.contact-container:hover{
+    /* border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition:0.3s ease; */
+
+
+        border-radius: 25px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        transform: scale(1.02) translateY(-10px);
+        transition: all 0.4s ease-in-out;
+    
+}
+
+.contact-container .h1 {
     color: #fff;
     text-transform: uppercase;
     padding: 20px 0;
@@ -735,6 +758,17 @@ nav .image ul {
     animation-fill-mode: forwards;
     /* Keeps the final state after animation */
     opacity: 0;
+
+
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    animation: fadeIn 2s ease;
 }
 
 .form-group {
@@ -747,6 +781,8 @@ nav .image ul {
     animation-fill-mode: forwards;
     /* Keeps the final state after animation */
     opacity: 0;
+
+
 }
 
 .form-group input {
@@ -755,7 +791,7 @@ nav .image ul {
     padding: 0 20px;
     border: #acacac solid 2px;
     outline: none;
-    color: #eee;
+    color: black;
     font-size: 18px;
     transition: 0.15s all ease;
     animation-name: krishanimation;
@@ -765,6 +801,13 @@ nav .image ul {
     animation-fill-mode: forwards;
     /* Keeps the final state after animation */
     opacity: 0;
+
+
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
 }
 
 
@@ -776,7 +819,7 @@ nav .image ul {
     width: 100%;
     resize: none;
     padding: 20px;
-    color: #eee;
+    color: black;
     font-size: 18px;
     animation-name: krishanimation;
     animation-duration: 3s;
@@ -785,6 +828,15 @@ nav .image ul {
     animation-fill-mode: forwards;
     /* Keeps the final state after animation */
     opacity: 0;
+
+
+    
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    resize: none;
 }
 
 #btn {
@@ -794,7 +846,7 @@ nav .image ul {
     text-transform: uppercase;
     font-weight: 600;
     background-color: #06c5f9;
-    color: white;
+    color: #fff;
     border: none;
     transition: 0.5s;
     cursor: pointer;
@@ -805,10 +857,18 @@ nav .image ul {
     animation-fill-mode: forwards;
     /* Keeps the final state after animation */
     opacity: 0;
+
+
+    border-radius: 10px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 #btn:hover {
     background: rgb(0, 0, 0, 0.5);
+    background-color: #002d62;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -893,10 +953,16 @@ nav .image ul {
 
     .contact-container {
         left: 0;
-        width: 348px;
+        /* width: 348px;
         position: absolute;
-        top: 455%;
+        top: 455%; */
+
+        width: 277px;
+        position: absolute;
+        top: 482%;
     }
+
+   
 
 
     .form-group {
