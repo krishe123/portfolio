@@ -85,7 +85,7 @@
             </div>
             <div>
 
-                <img src=" nature_1.jpg" alt="">
+                <img id="chishiya-img" src=" nature_1.jpg" alt="">
             </div>
 
             <div class="text">
@@ -292,6 +292,23 @@
 
 
     </script>
+
+    
+<script>
+    function updateImageForMobile() {
+        if (window.innerWidth <= 480) {
+            document.getElementById('chishiya-img').src = 'https://i.pinimg.com/originals/a1/52/e1/a152e11385a4a25e76d3c36eac5bf81a.jpg';
+        } else {
+            document.getElementById('chishiya-img').src = 'movie/nature_1.jpg';
+        }
+    }
+
+    // Call the function when the page loads
+    window.onload = updateImageForMobile;
+
+    // Call the function whenever the window is resized
+    window.onresize = updateImageForMobile;
+</script>
 
 </body>
 
