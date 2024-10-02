@@ -389,8 +389,8 @@ nav .image ul {
 .skils {
     position: absolute;
     width: 63%;
-    /* top: 207%; */
-    top: 373%;
+    top: 207%;
+    
     min-height: 60vh;
     padding: 123px 10%;
     animation-name: krishanimation;
@@ -573,119 +573,12 @@ nav .image ul {
 
 
 
-/* resume css start */
-
-
-
-
-
-     /* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-} */
-
-.resume-container {
-    max-width: 900px;
-    /* margin: 20px auto; */
-    background-color: #f4f4f4;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 94%;
-    left: 60vh;
-    position: relative;
-    top: 212%;
-    /* height: 50vh; */
-    z-index: 1;
-    border-radius: 8px;
-}
-
-.resume-container header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.resume-container .profile-img img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.resume-container .bio h1 {
-    font-size: 2.5em;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
-
-.resume-container .bio p {
-    font-size: 1.2em;
-    color: #777;
-}
-
-h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-}
-
-.resume-container .contact-info, .education, .skills, .experience, .certifications {
-    margin-bottom: 20px;
-}
-
-p {
-    margin-bottom: 8px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-ul li {
-    margin-bottom: 5px;
-}
-
-.resume-container .education-item, .experience-item {
-    margin-bottom: 15px;
-}
-
-.resume-container footer {
-    text-align: center;
-    font-size: 0.9em;
-    color: #777;
-}
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .bio h1 {
-        font-size: 2em;
-    }
-
-    .bio p {
-        font-size: 1.1em;
-    }
-}
 
 
 
 
 
 
-
-/* resume css end */
 
 
 
@@ -716,8 +609,8 @@ ul li {
     left: 55vh; */
     /* background-color: #f7efef; */
 
-    /* top: 335%; */
-    top: 356%;
+    top: 335%;
+    
     padding: 50px;
     /* width: 73%; */
     position: relative;
@@ -956,8 +849,8 @@ ul li {
     left: 38%;
     position: absolute;
     width: 42%;
-    /* top: 498%; */
-    top: 654%;
+    top: 498%;
+   
     min-height: 83vh;
     animation-name: krishanimation;
     animation-duration: 3s;
