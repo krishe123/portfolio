@@ -188,7 +188,7 @@ nav .image ul {
 .hamburger img {
     height: 45px;
     width: 45px;
-   
+    background-color: #ff7800;
     filter: invert(100%);
     /* Make sure the image is white */
     position: fixed;
@@ -222,6 +222,8 @@ nav .image ul {
     animation-iteration-count: initial;
 }
 
+
+
 .about img {
     height: 430px;
     width: 430px;
@@ -245,6 +247,8 @@ nav .image ul {
     width: 550px;
     position: relative;
     left: 17vh;
+    max-height: 38vh; /* Set the maximum height for the container */
+    overflow-y: auto;
     animation-name: krishanimation;
     animation-duration: 3s;
     animation-delay: 0.5s;
@@ -254,6 +258,40 @@ nav .image ul {
     opacity: 0;
     /* Initially invisible */
     /* animation-iteration-count: infinite; */
+}
+
+
+/* Custom Scrollbar */
+.about-text::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.about-text::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+    border-radius: 10px;
+}
+
+.about-text::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px;
+}
+
+.about-text::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker thumb color on hover */
+}
+
+/* Style for the paragraphs */
+.about-text p {
+    color: rgba(249, 22, 249, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .main {
@@ -311,6 +349,25 @@ nav .image ul {
     /* animation-iteration-count: infinite; */
 }
 
+
+.about-text::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.about-text::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+    border-radius: 10px;
+}
+
+.about-text::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px;
+}
+
+.about-text::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker thumb color on hover */
+}
+
 .about-text p {
     color: rgba(249, 22, 249, 0.8);
     letter-spacing: 1px;
@@ -329,14 +386,10 @@ nav .image ul {
 }
 
 
-
-
-
-
 .skils {
     position: absolute;
     width: 63%;
-/*     top: 207%; */
+    /* top: 207%; */
     top: 373%;
     min-height: 60vh;
     padding: 123px 10%;
@@ -520,7 +573,6 @@ nav .image ul {
 
 
 
-
 /* resume css start */
 
 
@@ -640,13 +692,20 @@ ul li {
 
 
 
+
+
+
+
+
+
+
 /* projects css  */
 
 .projects {
     padding: 50px;
     background-color: #faf7f7;
     height: 112vh;
-/*     width: 93%; */
+    /* width: 93%; */
     width: 1412px;
     position: relative;
 
@@ -657,12 +716,18 @@ ul li {
     left: 55vh; */
     /* background-color: #f7efef; */
 
+    /* top: 335%; */
     top: 356%;
     padding: 50px;
     /* width: 73%; */
     position: relative;
     left: 1vh;
     background-color: #121111;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
 }
 
 
@@ -674,6 +739,11 @@ ul li {
     color: #333;
     position: relative;
     left: 18vh;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
 }
 
 #main-title-p {
@@ -686,6 +756,11 @@ ul li {
      width: 130vh;
      left: 56vh;
      color: #fff;
+     animation-name: krishanimation;
+     animation-duration: 3s;
+     animation-delay: 0.5s;
+     /* Adjust as needed */
+     animation-fill-mode: forwards;
 }
 
 .projects-container {
@@ -697,6 +772,11 @@ ul li {
     width: 77%;
     position: relative;
     left: 26vh;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
 }
 
 #p-h{
@@ -706,6 +786,11 @@ ul li {
     left: 110vh;
     width: 20vh;
     color: #fff;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
 }
 
 .project {
@@ -728,6 +813,11 @@ ul li {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
 }
 
 .project:hover {
@@ -745,6 +835,11 @@ ul li {
 .project-links{
     position: relative;
     top: 27vh;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
 }
 
 .project h2 {
@@ -753,7 +848,12 @@ ul li {
     color: #555;
     position: relative;
     top: 24vh;
-    color: #d3c7c7;;
+    color: #d3c7c7;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
 }
 
 .project p {
@@ -762,6 +862,11 @@ ul li {
     position: relative;
     top: 24vh;
     color: #d3c7c7;;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
 }
 
 .project-links .btn {
@@ -775,6 +880,11 @@ ul li {
     border-radius: 50px;
     transition: background-color 0.3s, transform 0.3s;
     font-size: 16px;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
 }
 
 .project-links .btn:hover {
@@ -793,6 +903,11 @@ ul li {
 
     /* change */
     margin-top: 14px;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
 }
 
 
@@ -841,6 +956,7 @@ ul li {
     left: 38%;
     position: absolute;
     width: 42%;
+    /* top: 498%; */
     top: 654%;
     min-height: 83vh;
     animation-name: krishanimation;
@@ -1406,7 +1522,7 @@ ul li {
 @media screen and (max-width: 480px) {
 
     #chishiya-img {
-        background-image: url('https://i.pinimg.com/736x/82/95/d8/8295d80e3ce0cd224b054222c15da2ae.jpg');
+        background-image: url('movie/chishiya-img-1.jpg');
         /* opacity: 0.8; */
         opacity: 238.8;
        
