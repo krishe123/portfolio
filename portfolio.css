@@ -519,7 +519,8 @@ nav .image ul {
     padding: 50px;
     background-color: #faf7f7;
     height: 112vh;
-    width: 93%;
+/*     width: 93%; */
+    width: 1412px;
     position: relative;
 
     /* top: 335%;
