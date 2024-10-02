@@ -390,7 +390,6 @@ nav .image ul {
     position: absolute;
     width: 63%;
     top: 207%;
-    
     min-height: 60vh;
     padding: 123px 10%;
     animation-name: krishanimation;
@@ -571,27 +570,6 @@ nav .image ul {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* projects css  */
 
 .projects {
@@ -610,7 +588,6 @@ nav .image ul {
     /* background-color: #f7efef; */
 
     top: 335%;
-    
     padding: 50px;
     /* width: 73%; */
     position: relative;
@@ -850,7 +827,6 @@ nav .image ul {
     position: absolute;
     width: 42%;
     top: 498%;
-   
     min-height: 83vh;
     animation-name: krishanimation;
     animation-duration: 3s;
