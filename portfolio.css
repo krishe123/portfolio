@@ -1344,6 +1344,36 @@ ul li {
 }
 /* Default styles for larger screens */
 @media screen and (max-width: 1400px) {
+
+    .icon ul a {
+
+
+
+
+    margin-right: 10px;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -7px;
+    width: 118px;
+    /* background-color: red; */
+    height: 36px;
+    /* border-radius: 50%; */
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.icon ul li span {
+    position: relative;
+    top: 4px;
+    font-size: 17px;
+    left: 21px;
+
+}
     .about {
         height: 66vh;
     }
