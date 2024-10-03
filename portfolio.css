@@ -102,7 +102,7 @@ nav .image ul {
 }
 
 .icon ul a {
-    margin-right: 10px;
+/*     margin-right: 10px;
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -115,6 +115,24 @@ nav .image ul {
     color: #fff;
     text-decoration: none;
     z-index: 1;
+    overflow: hidden; */
+
+
+
+    margin-right: 10px;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -7px;
+    width: 118px;
+    /* background-color: red; */
+    height: 36px;
+    /* border-radius: 50%; */
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    z-index: 1;
     overflow: hidden;
 }
 
@@ -122,6 +140,8 @@ nav .image ul {
     position: relative;
     top: 4px;
     font-size: 17px;
+    left: 21px;
+
 }
 
 .icon ul li span:hover {
