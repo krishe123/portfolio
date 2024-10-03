@@ -131,6 +131,7 @@ nav .image ul {
     top: 1px;
     font-size: 17px;
     left: 21px;
+    width: 99px;
 
 }
 
@@ -1408,7 +1409,7 @@ ul li {
     }
 
     .icon ul {
-        right: 34px;
+        right: 20px;
         position: relative;
     }
 
