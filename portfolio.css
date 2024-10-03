@@ -99,18 +99,22 @@ nav .image ul {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    position: relative;
+    right: 9px;
 }
 
 .icon ul a {
+    
     margin-right: 10px;
     position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin-bottom: -7px;
-    width: 36px;
+    width: 139px;
+    /* background-color: red; */
     height: 36px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     font-size: 20px;
     color: #fff;
     text-decoration: none;
@@ -123,8 +127,8 @@ nav .image ul {
 }
 
 .icon ul li span {
-    position: relative;
-    top: 4px;
+  position: relative;
+    top: 1px;
     font-size: 17px;
     left: 21px;
 
