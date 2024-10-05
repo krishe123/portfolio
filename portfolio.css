@@ -104,7 +104,7 @@ nav .image ul {
 }
 
 .icon ul a {
-    
+
     margin-right: 10px;
     position: relative;
     display: inline-flex;
@@ -123,11 +123,11 @@ nav .image ul {
 
 
 
-   
+
 }
 
 .icon ul li span {
-  position: relative;
+    position: relative;
     top: 1px;
     font-size: 17px;
     left: 21px;
@@ -152,7 +152,8 @@ nav .image ul {
 }
 
 .box2 {
-    width: 99vw;
+    /* width: 99vw; */
+    width: 98vw;
     margin: 16px 0;
     position: relative;
 }
@@ -258,7 +259,8 @@ nav .image ul {
     width: 550px;
     position: relative;
     left: 17vh;
-    max-height: 38vh; /* Set the maximum height for the container */
+    max-height: 38vh;
+    /* Set the maximum height for the container */
     overflow-y: auto;
     animation-name: krishanimation;
     animation-duration: 3s;
@@ -274,21 +276,25 @@ nav .image ul {
 
 /* Custom Scrollbar */
 .about-text::-webkit-scrollbar {
-    width: 8px; /* Width of the scrollbar */
+    width: 8px;
+    /* Width of the scrollbar */
 }
 
 .about-text::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Background of the scrollbar track */
+    background: #f1f1f1;
+    /* Background of the scrollbar track */
     border-radius: 10px;
 }
 
 .about-text::-webkit-scrollbar-thumb {
-    background: #888; /* Color of the scrollbar thumb */
+    background: #888;
+    /* Color of the scrollbar thumb */
     border-radius: 10px;
 }
 
 .about-text::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Darker thumb color on hover */
+    background: #555;
+    /* Darker thumb color on hover */
 }
 
 /* Style for the paragraphs */
@@ -362,21 +368,25 @@ nav .image ul {
 
 
 .about-text::-webkit-scrollbar {
-    width: 8px; /* Width of the scrollbar */
+    width: 8px;
+    /* Width of the scrollbar */
 }
 
 .about-text::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Background of the scrollbar track */
+    background: #f1f1f1;
+    /* Background of the scrollbar track */
     border-radius: 10px;
 }
 
 .about-text::-webkit-scrollbar-thumb {
-    background: #888; /* Color of the scrollbar thumb */
+    background: #888;
+    /* Color of the scrollbar thumb */
     border-radius: 10px;
 }
 
 .about-text::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Darker thumb color on hover */
+    background: #555;
+    /* Darker thumb color on hover */
 }
 
 .about-text p {
@@ -590,7 +600,7 @@ nav .image ul {
 
 
 
-     /* * {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -614,7 +624,7 @@ body {
     position: relative;
     top: 212%;
     /* height: 50vh; */
-   
+
     border-radius: 8px;
 }
 
@@ -625,10 +635,11 @@ body {
 }
 
 .resume-container .profile-img img {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     margin-right: 20px;
+    margin-top: 26px;
 }
 
 .resume-container .bio h1 {
@@ -649,7 +660,11 @@ h2 {
     padding-bottom: 5px;
 }
 
-.resume-container .contact-info, .education, .skills, .experience, .certifications {
+.resume-container .contact-info,
+.education,
+.skills,
+.experience,
+.certifications {
     margin-bottom: 20px;
 }
 
@@ -665,7 +680,8 @@ ul li {
     margin-bottom: 5px;
 }
 
-.resume-container .education-item, .experience-item {
+.resume-container .education-item,
+.experience-item {
     margin-bottom: 15px;
 }
 
@@ -759,19 +775,19 @@ ul li {
 
 #main-title-p {
     color: #808080;
-     position: relative;
-     top: 16px;
+    position: relative;
+    top: 16px;
 
 
 
-     width: 130vh;
-     left: 56vh;
-     color: #fff;
-     animation-name: krishanimation;
-     animation-duration: 3s;
-     animation-delay: 0.5s;
-     /* Adjust as needed */
-     animation-fill-mode: forwards;
+    width: 130vh;
+    left: 56vh;
+    color: #fff;
+    animation-name: krishanimation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    /* Adjust as needed */
+    animation-fill-mode: forwards;
 }
 
 .projects-container {
@@ -790,7 +806,7 @@ ul li {
     animation-fill-mode: forwards;
 }
 
-#p-h{
+#p-h {
     position: relative;
     /* left: 50vh;
     width: 20vh; */
@@ -816,7 +832,7 @@ ul li {
 
 
     left: 22vh;
-   
+
 
 
     top: 6vh;
@@ -843,7 +859,7 @@ ul li {
     transform: scale(1.1);
 }
 
-.project-links{
+.project-links {
     position: relative;
     top: 27vh;
     animation-name: krishanimation;
@@ -872,7 +888,8 @@ ul li {
     margin-bottom: 10px;
     position: relative;
     top: 24vh;
-    color: #d3c7c7;;
+    color: #d3c7c7;
+    ;
     animation-name: krishanimation;
     animation-duration: 3s;
     animation-delay: 0.5s;
@@ -902,11 +919,11 @@ ul li {
     background-color: #0056b3;
 }
 
-.project-image  {
+.project-image {
     width: 50%;
     height: 30vh;
     /* max-height: 301px; Keeps the image size consistent */
-    max-height:  190px;
+    max-height: 190px;
     object-fit: contain;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -985,21 +1002,21 @@ ul li {
     padding: 50px;
     margin: auto;
     /* background: linear-gradient(135deg, #06c5f9, #002d62); */
-   
+
     /* animation: krishanimation 1.5s ease-out; */
 }
 
-.contact-container:hover{
+.contact-container:hover {
     /* border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transition:0.3s ease; */
 
 
-        border-radius: 25px;
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
-        transform: scale(1.02) translateY(-10px);
-        transition: all 0.4s ease-in-out;
-    
+    border-radius: 25px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02) translateY(-10px);
+    transition: all 0.4s ease-in-out;
+
 }
 
 .contact-container .h1 {
@@ -1085,7 +1102,7 @@ ul li {
     opacity: 0;
 
 
-    
+
     padding: 10px 15px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -1214,10 +1231,10 @@ ul li {
 
         width: 277px;
         position: absolute;
-        top: 648%;
+        top: 664%;
     }
 
-   
+
 
 
     .form-group {
@@ -1253,9 +1270,9 @@ ul li {
         left: -7vh;
         /* background-color: #f7efef; */
     }
-    
-    
-    
+
+
+
     .project-main-title h1 {
         font-size: 36px;
         margin-bottom: 20px;
@@ -1264,7 +1281,7 @@ ul li {
         position: relative;
         left: 18vh;
     }
-    
+
     #main-title-p {
         color: #808080;
         position: relative;
@@ -1272,15 +1289,15 @@ ul li {
         width: 112%;
         left: 12px;
     }
-    
-   
-    
-    .p-h{
+
+
+
+    .p-h {
         position: relative;
         left: 50vh;
         width: 20vh;
     }
-    
+
     .project {
         width: 75%;
         height: 47vh;
@@ -1293,9 +1310,9 @@ ul li {
         position: relative;
         left: -30px;
     }
-    
-   
-    
+
+
+
     .project h2 {
         font-size: 24px;
         margin-bottom: 10px;
@@ -1305,34 +1322,35 @@ ul li {
     }
 
     .project:hover {
-          transform: translateY(-10px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
-    border: 3px solid #03e9f4;
-    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 100px #03e9f4;
+        transform: translateY(-10px);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        border: 3px solid #03e9f4;
+        box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 100px #03e9f4;
     }
 
     .project-links .btn:hover {
         background-color: #0056b3;
         transform: scale(1.1);
     }
-    
-    
-    
-   
-    
-    
-    
-   
-    
-    .project-image  {
+
+
+
+
+
+
+
+
+
+    .project-image {
         width: 50%;
         height: 30vh;
         /* max-height: 301px; Keeps the image size consistent */
-        max-height:  190px;
-      
+        max-height: 190px;
+
     }
 
 }
+
 /* Default styles for larger screens */
 @media screen and (max-width: 1400px) {
 
@@ -1403,7 +1421,7 @@ ul li {
         position: relative;
         left: -5vh;
     }
-    
+
     .project-main-title h1 {
         font-size: 36px;
         margin-bottom: 20px;
@@ -1412,13 +1430,13 @@ ul li {
         position: relative;
         left: 18vh;
     }
-    
+
     #main-title-p {
         color: #808080;
         position: relative;
         top: 16px;
     }
-    
+
     .projects-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1431,14 +1449,14 @@ ul li {
         background-color: #0056b3;
         transform: scale(1.1);
     }
-    
+
     #p-h {
         position: relative;
         left: 13px;
         width: 20vh;
         color: #fff;
     }
-    
+
     .project {
         width: 86%;
         height: 47vh;
@@ -1456,12 +1474,12 @@ ul li {
         border: 3px solid #03e9f4;
         box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 100px #03e9f4;
     }
-    
+
     .project-links {
         position: relative;
         top: 27vh;
     }
-    
+
     .project h2 {
         font-size: 24px;
         margin-bottom: 10px;
@@ -1469,14 +1487,14 @@ ul li {
         position: relative;
         top: 24vh;
     }
-    
+
     .project p {
         font-size: 16px;
         margin-bottom: 10px;
         position: relative;
         top: 24vh;
     }
-    
+
     .project-links .btn {
         display: inline-block;
         padding: 10px 20px;
@@ -1524,7 +1542,8 @@ ul li {
         left: 0;
     }
 
-    .project h2, .project p {
+    .project h2,
+    .project p {
         top: 0;
     }
 
@@ -1540,11 +1559,21 @@ ul li {
         background-image: url('movie/chishiya-img-1.jpg');
         /* opacity: 0.8; */
         opacity: 238.8;
-       
+
     }
+
     .about img {
-        width: 25vh;
-        height: 25vh;
+        /* width: 25vh;
+        height: 25vh; */
+
+        width: 32vh;
+        height: 31vh;
+        margin-left: 36px;
+        margin-top: 44px;
+        align-items: center;
+        border-radius: none;
+        border: none;
+        border-radius: inherit;
     }
 
     .skils-container {
@@ -1554,25 +1583,51 @@ ul li {
     }
 
 
-    
-.resume-container {
-    max-width: 900px;
-    /* margin: 20px auto; */
-    background-color: #f4f4f4;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 91%;
-    left: 0vh;
-    position: relative;
-    top: 212%;
-    /* height: 50vh; */
- 
-    border-radius: 8px;
-}
+
+    .resume-container {
+        max-width: 900px;
+        /* margin: 20px auto; */
+        background-color: #f4f4f4;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 91%;
+        left: 0vh;
+        position: relative;
+        top: 212%;
+        /* height: 50vh; */
+
+        border-radius: 8px;
+    }
+
+    .resume-container .profile-img img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 120px;
+        margin-top: 26px;
+    }
+
+    .resume-container header {
+        flex-direction: column;
+        align-items: center;
+        height: 30vh;
+    }
+
+    .resume-container .bio {
+        margin-top: 19vh;
+    }
+
+    .bio h1 {
+        font-size: 2em;
+    }
+
+    .bio p {
+        font-size: 1.1em;
+    }
 
 
 
-  
+
     .projects {
         padding: 50px;
         background-color: #121111;
@@ -1586,9 +1641,9 @@ ul li {
         left: -5vh;
         /* background-color: #f7efef; */
     }
-    
-    
-    
+
+
+
     .project-main-title h1 {
         font-size: 36px;
         margin-bottom: 20px;
@@ -1597,13 +1652,13 @@ ul li {
         position: relative;
         left: 18vh;
     }
-    
+
     #main-title-p {
         color: #808080;
-         position: relative;
-         top: 16px;
+        position: relative;
+        top: 16px;
     }
-    
+
     .projects-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1612,20 +1667,20 @@ ul li {
         width: 16%;
     }
 
-   
+
 
     .project-links .btn:hover {
         background-color: #0056b3;
         transform: scale(1.1);
     }
-    
-    #p-h{
+
+    #p-h {
         position: relative;
         left: 13px;
         width: 20vh;
         color: #fff;
     }
-    
+
     .project {
         width: 86%;
         height: 58vh;
@@ -1643,12 +1698,12 @@ ul li {
         border: 3px solid #03e9f4;
         box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 100px #03e9f4;
     }
-    
-    .project-links{
+
+    .project-links {
         position: relative;
         top: 27vh;
     }
-    
+
     .project h2 {
         font-size: 24px;
         margin-bottom: 10px;
@@ -1656,37 +1711,37 @@ ul li {
         position: relative;
         top: 24vh;
     }
-    
+
     .project p {
         font-size: 16px;
         margin-bottom: 10px;
         position: relative;
         top: 24vh;
     }
-    
+
     .project-links .btn {
         display: inline-block;
         padding: 10px 20px;
         margin: 5px;
         background-color: #007bff;
-        
+
         color: white;
         text-decoration: none;
         border-radius: 50px;
         transition: background-color 0.3s, transform 0.3s;
         font-size: 16px;
     }
-    
+
     .project-links .btn:hover {
         background-color: #0056b3;
         transform: scale(1.1);
     }
-    
-    .project-image  {
+
+    .project-image {
         width: 50%;
         height: 30vh;
         /* max-height: 301px; Keeps the image size consistent */
-        max-height:  190px;
+        max-height: 190px;
         object-fit: contain;
         border-radius: 8px;
         margin-bottom: 15px;
